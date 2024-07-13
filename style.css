@@ -1,0 +1,93 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+.sve {
+  position: relative;
+  display: flex;
+  top: 50px;
+  justify-content: center;
+}
+.naslov {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+/* .naslov p input {
+  display: flex;
+  position: relative;
+  left: 5%;
+  color: gray;
+} 
+/* .naslov button {
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+} */
+/* .naslov p input {
+  width: 250px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+}  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.naslov {
+  text-align: center;
+  max-width: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+.naslov h1 {
+  margin-bottom: 10px;
+}
+
+.naslov p {
+  margin-bottom: 20px;
+}
+
+.naslov input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* ul li:last-child {
+  border-bottom: none;
+} */
+
+.naslov button {
+  position: relative;
+  left: 90px;
+  width: 40px;
+  height: 30px;
+  bottom: 33px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
